@@ -12,58 +12,58 @@
         "title": "Global",
         "properties": {
           "font-color": {
-            "title": "Font colour",
+            "title": "Color de fuenteColor de fuente",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "#4D4D4D",
-            "help": "Global body font colour."
+            "help": "Color de fuente del cuerpo global."
           },
           "font-color-inverted": {
-            "title": "Font colour inverted",
+            "title": "Color de fuente invertido",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "#FFFFFF",
-            "help": "Global body font colour inverted. Either a lightened/darkened alternative to Font colour."
+            "help": "Color de fuente del cuerpo global invertido. Ya sea una alternativa aclarada/oscurecida al color de fuente."
           },
           "link": {
-            "title": "Link font colour",
+            "title": "Color de fuente del enlace",
             "type": "string",
             "inputType": "ColourPicker",
             "default": ""
           },
           "link-inverted": {
-            "title": "Link font colour - inverted",
+            "title": "Color de fuente del enlace: invertido",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "",
-            "help": "Global link font colour inverted. Either a lightened/darkened alternative to Link colour."
+            "help": "Color de fuente de enlace global invertido. O una alternativa aclarada/oscurecida al color Link."
           },
           "link-hover": {
-            "title": "Link font colour - hover",
+            "title": "Color de fuente del enlace: pasar el cursor",
             "type": "string",
             "inputType": "ColourPicker",
             "default": ""
           },
           "link-inverted-hover": {
-            "title": "Link font colour - inverted hover",
+            "title": "Color de fuente del enlace: desplazamiento invertido",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "",
-            "help": "Global link font colour when hovered over inverted. Either a lightened/darkened alternative to Link hover colour."
+            "help": "Color de fuente de enlace global cuando se pasa el cursor sobre invertido. O una alternativa clara/oscura al color flotante de Link."
           },
           "heading-color": {
-            "title": "Heading colour",
+            "title": "Color de encabezado",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "#36CDE8",
-            "help": "Global title colour."
+            "help": "Color de título global."
           },
           "heading-color-inverted": {
             "title": "Heading colour - inverted",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "#FFFFFF",
-            "help": "Global title colour inverted. Either a lightened/darkened alternative to Title colour."
+            "help": "Color de título global invertido. O una alternativa aclarada/oscurecida al color del título."
           }
         }
       },
@@ -71,61 +71,61 @@
       "_items": {
         "type": "object",
         "required": false,
-        "title": "Items (Components)",
+        "title": "Artículos (Componentes)",
         "properties": {
           "item-color": {
-            "title": "Item colour",
+            "title": "Color del artículo",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "#36CDE8",
-            "help": "Defines the clickable areas or points of interest in components."
+            "help": "Define las áreas en las que se puede hacer clic o los puntos de interés en los componentes."
           },
           "item-color-inverted": {
-            "title": "Item colour - inverted",
+            "title": "Color del artículo - invertido",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "#FFFFFF",
-            "help": "Defines the Item text / icon colour. Should be a colour that provides good contrast against the Item colour."
+            "help": "Define el color del icono/texto del artículo. Debe ser un color que proporcione un buen contraste con el color del artículo."
           },
           "item-color-hover": {
-            "title": "Item colour - hover",
+            "title": "Color del elemento: pasar el cursor",
             "type": "string",
             "inputType": "ColourPicker",
             "default": ""
           },
           "item-color-inverted-hover": {
-            "title": "Item colour - inverted hover",
+            "title": "Color del elemento: desplazamiento invertido",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "",
-            "help": "Defines the Item text / icon colour when hovered over. Should be a colour that provides good contrast against the Item hover colour."
+            "help": "define el color del icono/texto del elemento cuando se pasa el cursor por encima. Debe ser un color que proporcione un buen contraste con el color de desplazamiento del elemento.."
           },
           "item-color-selected": {
-            "title": "Item colour - selected",
+            "title": "Color del artículo - seleccionado",
             "type": "string",
             "inputType": "ColourPicker",
             "default": ""
           },
           "item-color-inverted-selected": {
-            "title": "Item colour - inverted selected",
+            "title": "Color del elemento: seleccionado invertido",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "",
-            "help": "Defines the Item text / icon colour when selected. Should be a colour that provides good contrast against the Item selected colour."
+            "help": "Define el color del icono/texto del elemento cuando se selecciona. Debe ser un color que proporcione un buen contraste con el color del elemento seleccionado."
           },
           "visited": {
-            "title": "Visited colour",
+            "title": "Color visitado",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "#727272",
-            "help": "Defines the Item colour when it has been visited."
+            "help": "Define el color del artículo cuando ha sido visitado."
           },
           "visited-inverted": {
-            "title": "Visited colour - inverted",
+            "title": "Color visitado - invertido",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "#FFFFFF",
-            "help": "Defines the Item text / icon colour when visited. Should be a colour that provides good contrast against the Item visited colour."
+            "help": "Define el color del icono/texto del elemento cuando se visita. Debe ser un color que proporcione un buen contraste con el color del elemento visitado."
           }
         }
       },
@@ -136,71 +136,71 @@
         "title": "Buttons",
         "properties": {
           "btn-color": {
-            "title": "Button colour",
+            "title": "Color del botón",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "#4D4D4D",
-            "help": "Defines component question buttons and navigational elements."
+            "help": "Define los botones de pregunta del componente y los elementos de navegación."
           },
           "btn-color-inverted": {
-            "title": "Button colour - inverted",
+            "title": "Color del botón - invertido",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "#FFFFFF",
-            "help": "Defines the button text / icon colour. Should be a colour that provides good contrast against the button colour."
+            "help": "Define el texto del botón/color del icono. Debe ser un color que proporcione un buen contraste con el color del botón."
           },
           "btn-color-hover": {
-            "title": "Button colour - hover",
+            "title": "Color del botón: pasar el cursor",
             "type": "string",
             "inputType": "ColourPicker",
             "default": ""
           },
           "btn-color-inverted-hover": {
-            "title": "Button colour - inverted hover",
+            "title": "Color del botón: desplazamiento invertido",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "",
-            "help": "Defines the button text / icon colour when hovered over. Should be a colour that provides good contrast against the button hover colour."
+            "help": "Define el color del icono/texto del botón cuando se pasa el cursor por encima. Debe ser un color que proporcione un buen contraste con el color de desplazamiento del botón."
           },
           "btn-icon-color": {
-            "title": "Button icon colour",
+            "title": "Color del icono del botón",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "",
-            "help": "Defines the standardised icon button background colour."
+            "help": "Define el color de fondo del botón de icono estandarizado."
           },
           "btn-icon-color-inverted": {
-            "title": "Button icon colour - inverted",
+            "title": "Color del icono del botón - invertido",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "",
-            "help": "Defines the button icon colour. Should be a colour that provides good contrast against the button colour."
+            "help": "Define el color del icono del botón. Debe ser un color que proporcione un buen contraste con el color del botón."
           },
           "btn-icon-color-hover": {
-            "title": "Button icon colour - hover",
+            "title": "Color del icono del botón: pasar el cursor",
             "type": "string",
             "inputType": "ColourPicker",
             "default": ""
           },
           "btn-icon-color-inverted-hover": {
-            "title": "Button icon colour - inverted hover",
+            "title": "Color del icono del botón: desplazamiento invertido",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "",
-            "help": "Defines the button icon colour when hovered over. Should be a colour that provides good contrast against the button hover colour."
+            "help": "Define el color del icono del botón cuando se pasa el cursor por encima. Debe ser un color que proporcione un buen contraste con el color de desplazamiento del botón."
           },
           "disabled": {
-            "title": "Disabled colour",
+            "title": "Color deshabilitado",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "#DDDDDD"
           },
           "disabled-inverted": {
-            "title": "Disabled colour - inverted",
+            "title": "Color deshabilitado - invertido",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "#000000",
-            "help": "Defines the button text / icon colour when it is disabled. Should be a colour that provides good contrast against the button disabled colour."
+            "help": "Define el color del icono/texto del botón cuando está deshabilitado. Debe ser un color que proporcione un buen contraste con el color del botón deshabilitado."
           }
         }
       },
@@ -208,35 +208,35 @@
       "_validation": {
         "type": "object",
         "required": false,
-        "title": "Validation states",
+        "title": "Estados de validación",
         "properties": {
           "validation-success": {
-            "title": "Validation success colour",
+            "title": "Color de éxito de la validación",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "#065f28",
-            "help": "Defines the question marking success colour."
+            "help": "Define el color de éxito del marcado de interrogación."
           },
           "validation-success-inverted": {
-            "title": "Validation success colour - inverted",
+            "title": "Color de éxito de validación - invertido",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "#FFFFFF",
-            "help": "Defines the question marking success text / icon colour. Should be a colour that provides good contrast against the question marking success colour."
+            "help": "Define el color del icono/texto de éxito del marcado de interrogación. Debe ser un color que proporcione un buen contraste con el color de éxito del signo de interrogación."
           },
           "validation-error": {
-            "title": "Validation error colour",
+            "title": "Color de error de validación",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "#ff0000",
-            "help": "Defines the question marking error colour."
+            "help": "Define el color del error de marcado de interrogación."
           },
           "validation-error-inverted": {
-            "title": "Validation error colour - inverted",
+            "title": "Color de error de validación - invertido",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "#FFFFFF",
-            "help": "Defines the question marking error text / icon colour. Should be a colour that provices good contrast against the question marking error colour."
+            "help": "Define el color del icono/texto del error de marcación de interrogación. Debe ser un color que proporcione un buen contraste con el color del error de marcado de interrogación."
           }
         }
       },
@@ -244,28 +244,28 @@
       "_progress": {
         "type": "object",
         "required": false,
-        "title": "Progress",
+        "title": "Progreso",
         "properties": {
           "progress": {
-            "title": "Progress fill colour",
+            "title": "Color de relleno de progreso",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "#9096A0",
-            "help": "Defines the global progress width fill colour."
+            "help": "Define el color de relleno del ancho de progreso global."
           },
           "progress-inverted": {
-            "title": "Progress background colour",
+            "title": "Color de fondo de progreso",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "#FFFFFF",
-            "help": "Defines the global progress fill background colour."
+            "help": "Define el color de fondo del relleno de progreso global."
           },
           "progress-border": {
-            "title": "Progress border colour",
+            "title": "Color del borde de progreso",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "#9096A0",
-            "help": "Defines the global border colour that appears around the progress fill bar."
+            "help": "Define el color del borde global que aparece alrededor de la barra de relleno de progreso."
           }
         }
       },
@@ -273,72 +273,72 @@
       "_menu": {
         "type": "object",
         "required": false,
-        "title": "Menu",
+        "title": "Menú",
         "properties": {
           "menu-item": {
-            "title": "Menu item colour",
+            "title": "Color del elemento del menú",
             "type": "string",
             "inputType": "ColourPicker",
             "default": ""
           },
           "menu-item-inverted": {
-            "title": "Menu item colour - inverted",
+            "title": "Color de elemento de menú - invertido",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "",
-            "help": "Defines the Menu Item text colour. Should be a colour that provides good contrast against the Menu Item colour."
+            "help": "Define el color del texto del elemento del menú. Debe ser un color que proporcione un buen contraste con el color del elemento del menú.."
           },
           "menu-item-border-color": {
-            "title": "Menu item border colour",
+            "title": "Color del borde del elemento del menú",
             "type": "string",
             "inputType": "ColourPicker",
             "default": ""
           },
           "menu-item-progress": {
-            "title": "Menu item progress fill colour",
+            "title": "Color de relleno del progreso del elemento del menú",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "",
-            "help": "Defines the Menu Item specific global progress width fill override colour."
+            "help": "Define el color de anulación de relleno de ancho de progreso global específico del elemento de menú."
           },
           "menu-item-progress-inverted": {
-            "title": "Menu item progress background colour",
+            "title": "Color de fondo del progreso del elemento del menú",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "",
-            "help": "Defines the Menu Item specific global progress fill background override colour."
+            "help": "Define el color de anulación de fondo de relleno de progreso global específico del elemento de menú."
           },
           "menu-item-progress-border": {
-            "title": "Menu item progress border colour",
+            "title": "Color del borde de progreso del elemento del menú",
             "type": "string",
             "inputType": "ColourPicker",
             "default": ""
           },
           "menu-item-btn-color": {
-            "title": "Menu item button background colour",
+            "title": "Color de fondo del botón del elemento del menú",
             "type": "string",
             "inputType": "ColourPicker",
             "default": ""
           },
           "menu-item-btn-color-inverted": {
-            "title": "Menu item button background colour - inverted",
+            "title": "Color de fondo del botón del elemento del menú: invertido",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "",
-            "help": "Defines the Menu Item button text colour. Should be a colour that provides good contrast against the Menu Item button colour."
+            "help": "Define el color del texto del botón del elemento de menú. Debe ser un color que proporcione un buen contraste con el color del botón del elemento de menú."
           },
           "menu-item-btn-color-hover": {
-            "title": "Menu item button background colour - hover",
+            "title": "Color de fondo del botón del elemento del menú: pasar el cursor",
             "type": "string",
             "inputType": "ColourPicker",
             "default": ""
           },
           "menu-item-btn-color-inverted-hover": {
-            "title": "Menu item button background colour - inverted hover",
+            "title": "Color de fondo del botón del elemento del menú: desplazamiento invertido",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "",
-            "help": "Defines the Menu Item button text colour when hovered over. Should be a colour that provides good contrast against the Menu Item button hover colour."
+            "help": "Define el color del texto del botón Elemento de menú cuando se pasa el cursor por encima. Debe ser un color que proporcione un buen contraste con el color de desplazamiento del botón del elemento de menú."
           }
         }
       },
@@ -346,83 +346,83 @@
       "_nav": {
         "type": "object",
         "required": false,
-        "title": "Navigation",
+        "title": "Navegación",
         "properties": {
           "nav": {
-            "title": "Navigation background colour",
+            "title": "Color de fondo de navegación",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "#FFFFFF"
           },
           "nav-inverted": {
-            "title": "Navigation background colour - inverted",
+            "title": "Color de fondo de navegación: invertido",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "#9096A0",
-            "help": "Defines the general Navigation inverted colour. Should be a colour that provides good contrast against the Navigation colour."
+            "help": "Define el color general invertido de la Navegación. Debe ser un color que proporcione un buen contraste con el color de Navegación."
           },
           "nav-icon": {
-            "title": "Navigation button background colour",
+            "title": "Color de fondo del botón de navegación",
             "type": "string",
             "inputType": "ColourPicker",
             "default": ""
           },
           "nav-icon-inverted": {
-            "title": "Navigation button background colour - inverted",
+            "title": "Color de fondo del botón de navegación: invertido",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "",
-            "help": "Defines the Navigation Btn text / icon colour. Should be a colour that provides good contrast against the Navigation Btn colour."
+            "help": "Define el color del icono/texto del botón de navegación. Debe ser un color que proporcione un buen contraste con el color de Navigation Btn."
           },
           "nav-icon-hover": {
-            "title": "Navigation button background colour - hover",
+            "title": "Color de fondo del botón de navegación: pasar el cursor",
             "type": "string",
             "inputType": "ColourPicker",
             "default": ""
           },
           "nav-icon-inverted-hover": {
-            "title": "Navigation button background colour - inverted hover",
+            "title": "Color de fondo del botón de navegación: desplazamiento invertido",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "",
-            "help": "Defines the Navigation button text / icon colour when hovered over. Should be a colour that provides good contrast against the Navigation button hover colour."
+            "help": "Define el color del icono/texto del botón de navegación cuando se pasa el cursor por encima. Debe ser un color que proporcione un buen contraste con el color de desplazamiento del botón de navegación."
           },
           "nav-progress": {
-            "title": "Navigation progress fill color",
+            "title": "Color de relleno del progreso de la navegación",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "",
-            "help": "Defines the Navigation specific progress width fill override colour."
+            "help": "Define el color de anulación de relleno de ancho de progreso específico de navegación."
           },
           "nav-progress-inverted": {
-            "title": "Navigation progress background color - inverted",
+            "title": "Color de fondo del progreso de la navegación: invertido",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "",
-            "help": "Defines the Navigation specific progress fill background override colour."
+            "help": "Define el color de anulación de fondo de relleno de progreso específico de navegación."
           },
           "nav-progress-border": {
-            "title": "Navigation progress border colour",
+            "title": "Color del borde del progreso de la navegación",
             "type": "string",
             "inputType": "ColourPicker",
             "default": ""
           },
           "nav-progress-hover": {
-            "title": "Navigation progress fill color - hover",
+            "title": "Color de relleno del progreso de la navegación: pasar el cursor",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "",
-            "help": "Defines the Navigation specific progress width fill override colour when hovered over."
+            "help": "Define el color de anulación de relleno de ancho de progreso específico de navegación cuando se pasa el mouse sobre."
           },
           "nav-progress-inverted-hover": {
-            "title": "Navigation progress background color - inverted hover",
+            "title": "Color de fondo del progreso de la navegación: desplazamiento invertido",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "",
-            "help": "Defines the Navigation specific progress fill background override colour when hovered over."
+            "help": "Define el color de anulación de fondo de relleno de progreso específico de navegación cuando se pasa el cursor sobre."
           },
           "nav-progress-border-hover": {
-            "title": "Navigation progress border colour - hover",
+            "title": "Color del borde del progreso de la navegación: pasar el cursor",
             "type": "string",
             "inputType": "ColourPicker",
             "default": ""
@@ -433,48 +433,48 @@
       "_notify": {
         "type": "object",
         "required": false,
-        "title": "Notify (pop up)",
+        "title": "Notificar (ventana emergente)",
         "properties": {
           "notify": {
-            "title": "Notify background colour",
+            "title": "Notificar color de fondo",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "#36CDE8"
           },
           "notify-inverted": {
-            "title": "Notify background colour - inverted",
+            "title": "Notificar color de fondo - invertido",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "#FFFFFF",
-            "help": "Defines the Notify text colour. Should be a colour that provides good contrast against the Notify colour."
+            "help": "Define el color del texto de notificación. Debe ser un color que proporcione un buen contraste con el color Notify."
           },
           "notify-link": {
-            "title": "Notify link font colour",
+            "title": "Notificar el color de la fuente del enlace",
             "type": "string",
             "inputType": "ColourPicker",
             "default": ""
           },
           "notify-link-hover": {
-            "title": "Notify link font colour - hover",
+            "title": "Notificar el color de la fuente del enlace: pasar el cursor",
             "type": "string",
             "inputType": "ColourPicker",
             "default": ""
           },
           "notify-btn": {
-            "title": "Notify button background colour",
+            "title": "Color de fondo del botón Notificar",
             "type": "string",
             "inputType": "ColourPicker",
             "default": ""
           },
           "notify-btn-inverted": {
-            "title": "Notify button background colour - inverted",
+            "title": "Color de fondo del botón Notificar - invertido",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "",
-            "help": "Defines the Notify button text / icon colour. Should be a colour that provides good contrast against the Notify button colour."
+            "help": "Define el color del icono/texto del botón Notificar. Debe ser un color que proporcione un buen contraste con el color del botón Notificar."
           },
           "notify-btn-hover": {
-            "title": "Notify button background colour - hover",
+            "title": "Notificar color de fondo del botón - pasar el cursor",
             "type": "string",
             "inputType": "ColourPicker",
             "default": ""
@@ -484,33 +484,33 @@
             "type": "string",
             "inputType": "ColourPicker",
             "default": "",
-            "help": "Defines the Notify button text / icon colour when hovered over. Should be a colour that provides good contrast against the Notify button hover colour."
+            "help": "Define el color del icono/texto del botón Notificar cuando se pasa el cursor por encima. Debe ser un color que proporcione un buen contraste con el color de desplazamiento del botón Notificar."
           },
           "notify-icon": {
-            "title": "Notify icon button background colour",
+            "title": "Notificar el color de fondo del botón del icono",
             "type": "string",
             "inputType": "ColourPicker",
             "default": ""
           },
           "notify-icon-inverted": {
-            "title": "Notify icon button background colour - inverted",
+            "title": "Notificar color de fondo del botón del icono - invertido",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "",
-            "help": "Defines the Notify Icon inverse colour. Should be a colour that provides good contrast against the Notify Icon colour."
+            "help": "Define los colores de inversión del icono de notificación. Debe ser un color que proporcione un buen contraste con el color del icono de notificación.."
           },
           "notify-icon-hover": {
-            "title": "Notify icon button background colour - hover",
+            "title": "Notificar color de fondo del botón del icono - pasar el cursor",
             "type": "string",
             "inputType": "ColourPicker",
             "default": ""
           },
           "notify-icon-inverted-hover": {
-            "title": "Notify icon button background colour - inverted hover",
+            "title": "Notificar color de fondo del botón del icono - desplazamiento invertido",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "",
-            "help": "Defines the Notify Icon colour when hovered over. Should be a colour that provides good contrast against the Notify Icon colour."
+            "help": "Define el color del icono de notificación cuando se pasa el cursor por encima. Debe ser un color que proporcione un buen contraste con el color del icono de notificación."
           }
         }
       },
@@ -518,139 +518,139 @@
       "_drawer": {
         "type": "object",
         "required": false,
-        "title": "Drawer",
+        "title": "Cajón",
         "properties": {
           "drawer": {
-            "title": "Drawer background colour",
+            "title": "Color de fondo del cajón",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "#263944"
           },
           "drawer-inverted": {
-            "title": "Drawer background colour - inverted",
+            "title": "Color de fondo del cajón - invertido",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "#FFFFFF",
-            "help": "Defines the Drawer text colour. Should be a colour that provides good contrast against the Drawer colour."
+            "help": "Define el color del texto del cajón. Debe ser un color que proporcione un buen contraste con el color del cajón."
           },
           "drawer-link": {
-            "title": "Drawer link font colour",
+            "title": "Color de fuente del vínculo del cajón",
             "type": "string",
             "inputType": "ColourPicker",
             "default": ""
           },
           "drawer-link-hover": {
-            "title": "Drawer link font colour - hover",
+            "title": "Color de la fuente del enlace del cajón: pasar el cursor",
             "type": "string",
             "inputType": "ColourPicker",
             "default": ""
           },
           "drawer-icon": {
-            "title": "Drawer icon button background colour",
+            "title": "Color de fondo del botón del icono del cajón",
             "type": "string",
             "inputType": "ColourPicker",
             "default": ""
           },
           "drawer-icon-inverted": {
-            "title": "Drawer icon button background colour - inverted",
+            "title": "Color de fondo del botón del icono del cajón - invertido",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "",
-            "help": "Defines the Drawer Icon button inverse colour. Should be a colour that provides good contrast against the Drawer Icon button colour"
+            "help": "Define el color inverso del botón del icono del cajón. Debe ser un color que proporcione un buen contraste con el color del botón del icono del cajón."
           },
           "drawer-icon-hover": {
-            "title": "Drawer icon button background colour - hover",
+            "title": "Color de fondo del botón del icono del cajón - pasar el cursor",
             "type": "string",
             "inputType": "ColourPicker",
             "default": ""
           },
           "drawer-icon-inverted-hover": {
-            "title": "Drawer icon button background colour - inverted hover",
+            "title": "Color de fondo del botón del icono del cajón: desplazamiento invertido",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "",
-            "help": "Defines the Drawer Icon button inverse colour when hovered over. Should be a colour that provides good contrast against the Drawer Icon button hover colour."
+            "help": "Define el color inverso del botón del icono del cajón cuando se pasa el cursor sobre él. Debe ser un color que proporcione un buen contraste con el color de desplazamiento del botón del icono del cajón."
           },
           "drawer-item": {
-            "title": "Drawer item background colour",
+            "title": "Color de fondo del artículo del cajón",
             "type": "string",
             "inputType": "ColourPicker",
             "default": ""
           },
           "drawer-item-inverted": {
-            "title": "Drawer item background colour - inverted",
+            "title": "Color de fondo del artículo del cajón - invertido",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "",
-            "help": "Defines the Drawer Item text / icon colour. Should be a colour that provides good contrast against the Drawer Item colour."
+            "help": "Define el color del icono/texto del elemento del cajón. Debe ser un color que proporcione un buen contraste con el color del elemento del cajón."
           },
           "drawer-item-hover": {
-            "title": "Drawer item background colour - hover",
+            "title": "Color de fondo del elemento del cajón: pasar el cursor",
             "type": "string",
             "inputType": "ColourPicker",
             "default": ""
           },
           "drawer-item-inverted-hover": {
-            "title": "Drawer item background colour - inverted hover",
+            "title": "Color de fondo del elemento del cajón: desplazamiento invertido",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "",
-            "help": "Defines the Drawer Item text / icon colour when hovered over. Should be a colour that provides good contrast against the Drawer Item hover colour."
+            "help": "Define el color del icono/texto del elemento del cajón cuando se pasa el cursor por encima. Debe ser un color que proporcione un buen contraste con el color flotante del elemento del cajón."
           },
           "drawer-item-selected": {
-            "title": "Drawer item background colour - selected",
+            "title": "Color de fondo del elemento del cajón: seleccionado",
             "type": "string",
             "inputType": "ColourPicker",
             "default": ""
           },
           "drawer-item-inverted-selected": {
-            "title": "Drawer item background colour - inverted selected",
+            "title": "Color de fondo del elemento del cajón: seleccionado invertido",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "",
-            "help": "Defines the Drawer Item text / icon colour when selected. Should be a colour that provides good contrast against the Drawer Item selected colour."
+            "help": "Define el color del icono/texto del elemento del cajón cuando se selecciona. Debe ser un color que proporcione un buen contraste con el color seleccionado del elemento del cajón."
           },
           "drawer-progress": {
-            "title": "Drawer progress fill colour",
+            "title": "Color de relleno del progreso del cajón",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "",
-            "help": "Defines the Drawer-specific progress width fill override colour."
+            "help": "Define el color de anulación de relleno de ancho de progreso específico del cajón."
           },
           "drawer-progress-inverted": {
-            "title": "Drawer progress background colour",
+            "title": "Color de fondo del progreso del cajón",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "",
-            "help": "Defines the Drawer-specific progress fill background override colour."
+            "help": "Define el color de anulación de fondo de relleno de progreso específico del cajón."
           },
           "drawer-progress-border": {
-            "title": "Drawer progress border colour",
+            "title": "Color del borde del progreso del cajón",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "",
-            "help": "Defines the Drawer-specific border override colour that appears around the progress fill bar."
+            "help": "Define el color de anulación de borde específico del cajón que aparece alrededor de la barra de relleno de progreso."
           },
           "drawer-progress-hover": {
-            "title": "Drawer progress colour - hover",
+            "title": "Color de progreso del cajón: pasar el cursor",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "",
-            "help": "Defines the Drawer-specific progress width fill override colour when hovered over."
+            "help": "Define el color de anulación de relleno de ancho de progreso específico del cajón cuando se pasa el mouse sobre."
           },
           "drawer-progress-inverted-hover": {
-            "title": "Drawer progress colour - inverted hover",
+            "title": "Color de progreso del cajón: desplazamiento invertido",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "",
-            "help": "Defines the Drawer-specific progress fill background override colour when hovered over."
+            "help": "Define el color de anulación de fondo de relleno de progreso específico del cajón cuando se pasa el cursor sobre."
           },
           "drawer-progress-border-hover": {
-            "title": "Drawer progress border colour - hover",
+            "title": "Color del borde del progreso del cajón: pasar el cursor",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "",
-            "help": "Defines the Drawer-specific border override colour that appears around the progress fill bar when hovered over."
+            "help": "Define el color de anulación de borde específico del cajón que aparece alrededor de la barra de relleno de progreso cuando se pasa el cursor sobre."
           }
         }
       },
@@ -661,31 +661,31 @@
         "title": "Misc",
         "properties": {
           "background": {
-            "title": "Background colour",
+            "title": "Color de fondo",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "#000000",
-            "help": "Sets the generic Background colour. "
+            "help": "Establece el color de fondo genérico. "
           },
           "background-inverted": {
-            "title": "Background colour - inverted",
+            "title": "Color de fondo - invertido",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "#FFFFFF",
-            "help": "Defines the Background text / icon colour. Should be a colour that provides good contrast against the Background colour."
+            "help": "Define el color del icono/texto de fondo. Debe ser un color que proporcione un buen contraste con el color de fondo."
           },
           "shadow": {
-            "title": "Shadow background colour (loading / pop up background)",
+            "title": "Color de fondo de la sombra (cargando / fondo emergente)",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "#000000"
           },
           "shadow-inverted": {
-            "title": "Shadow background colour - inverted",
+            "title": "Color de fondo de la sombra - invertido",
             "type": "string",
             "inputType": "ColourPicker",
             "default": "#FFFFFF",
-            "help": "Defines the Shadow text / icon colour. Should be a colour that provides good contrast against the Shadow colour."
+            "help": "Define el color del icono/texto de la sombra. Debe ser un color que proporcione un buen contraste con el color Sombra."
           }
         }
       }
@@ -708,71 +708,76 @@
               "required": false,
               "properties": {
                 "_backgroundImage": {
+                  "title": "Imagen de fondo",
                   "type": "object",
                   "required": false,
-                  "legend": "Page background image",
+                  "legend": "Imagen de fondo de la página",
                   "properties": {
                     "_large": {
                       "type": "string",
+                      "title": "largo",
                       "required": false,
                       "default": "",
                       "inputType": "Asset:image",
                       "validators": [],
-                      "help": "Large background image - used on desktop"
+                      "help": "Imagen de fondo grande: se usa en el escritorio"
                     },
                     "_medium": {
                       "type": "string",
+                      "title":"medio",
                       "required": false,
                       "default": "",
                       "inputType": "Asset:image",
                       "validators": [],
-                      "help": "Medium background image - used on tablet"
+                      "help": "Imagen de fondo mediana: utilizada en tabletas"
                     },
                     "_small": {
                       "type": "string",
+                      "title":"pequeño",
                       "required": false,
                       "default": "",
                       "inputType": "Asset:image",
                       "validators": [],
-                      "help": "Small background image - used on mobile"
+                      "help": "Imagen de fondo pequeña: utilizada en dispositivos móviles"
                     }
                   }
                 },
                 "_backgroundStyles": {
                   "type": "object",
                   "required": false,
-                  "legend": "Page background image styles",
+                  "title":"estilos de fondo",
+                  "legend": "Estilos de imagen de fondo de página",
                   "properties": {
                     "_backgroundRepeat": {
                       "type": "string",
                       "required": false,
                       "default": "",
                       "inputType": {"type":"Select", "options":["repeat","repeat-x","repeat-y","no-repeat"]},
-                      "title": "Set if/how the background image repeats",
-                      "help": "Repeat-x: The background image is repeated only horizontally. Repeat-y: The background image is repeated only vertically."
+                      "title": "Establecer si/cómo se repite la imagen de fondo",
+                      "help": "Repeat-x: La imagen de fondo se repite solo horizontalmente. Repeat-y: La imagen de fondo se repite solo verticalmente.."
                     },
                     "_backgroundSize": {
                       "type": "string",
                       "required": false,
                       "default": "",
                       "inputType": {"type":"Select", "options":["auto","cover","contain","100% 100%"]},
-                      "title": "Set the size of the background image",
-                      "help": "Auto: The background image is displayed in its original size. Cover: Resize the background image to cover the entire container, even if it has to stretch or crop the image. Contain: Resize the background image to make sure the image is fully visible. 100% 100%: Resize the background image to match the dimensions of the container."
+                      "title": "Establecer el tamaño de la imagen de fondo",
+                      "help": "Auto: La imagen de fondo se muestra en su tamaño original. Cover: Cambie el tamaño de la imagen de fondo para cubrir todo el contenedor, incluso si tiene que estirar o recortar la imagen. Contain: Cambie el tamaño de la imagen de fondo para asegurarse de que la imagen sea completamente visible. 100% 100%: Cambiar el tamaño de la imagen de fondo para que coincida con las dimensiones del contenedor."
                     },
                     "_backgroundPosition": {
                       "type": "string",
                       "required": false,
                       "default": "",
                       "inputType": {"type":"Select", "options":["left top","left center","left bottom","center top","center center","center bottom","right top","right center","right bottom"]},
-                      "title": "Set the position of the background image",
-                      "help": "The first value is the horizontal position and the second value is the vertical."
+                      "title": "Establecer la posición de la imagen de fondo",
+                      "help": "El primer valor es la posición horizontal y el segundo valor es la vertical."
                     }
                   }
                 },
                 "_responsiveClasses": {
                   "type": "object",
                   "required": false,
-                  "legend": "Responsive classes",
+                  "legend": "Clases receptivas",
                   "properties": {
                     "_large": {
                       "type": "string",
@@ -780,7 +785,7 @@
                       "default": "",
                       "inputType": "Text",
                       "validators": [],
-                      "help": "Large CSS class - used on desktop"
+                      "help": "Clase CSS grande: se usa en el escritorio"
                     },
                     "_medium": {
                       "type": "string",
@@ -788,7 +793,7 @@
                       "default": "",
                       "inputType": "Text",
                       "validators": [],
-                      "help": "Medium CSS class - used on tablet"
+                      "help": "Clase CSS media - utilizado en tableta"
                     },
                     "_small": {
                       "type": "string",
@@ -796,7 +801,7 @@
                       "default": "",
                       "inputType": "Text",
                       "validators": [],
-                      "help": "Small CSS class - used on mobile"
+                      "help": "Clase pequeña de CSS: utilizada en dispositivos móviles"
                     }
                   }
                 },
@@ -807,7 +812,7 @@
                     "_backgroundImage": {
                       "type": "object",
                       "required": false,
-                      "legend": "Page header background image",
+                      "legend": "Imagen de fondo del encabezado de página",
                       "properties": {
                         "_large": {
                           "type": "string",
@@ -815,85 +820,91 @@
                           "default": "",
                           "inputType": "Asset:image",
                           "validators": [],
-                          "help": "Large background image - used on desktop"
+                          "title": "Largo",
+                          "help": "Imagen de fondo grande: se usa en el escritorio"
                         },
                         "_medium": {
                           "type": "string",
                           "required": false,
                           "default": "",
                           "inputType": "Asset:image",
+                          "title": "Medio",
                           "validators": [],
-                          "help": "Medium background image - used on tablet"
+                          "help": "Imagen de fondo mediana - usada en tableta"
                         },
                         "_small": {
                           "type": "string",
                           "required": false,
                           "default": "",
                           "inputType": "Asset:image",
+                          "title": "Pequeño",
                           "validators": [],
-                          "help": "Small background image - used on mobile"
+                          "help": "Imagen de fondo pequeña: utilizada en dispositivos móviles"
                         }
                       }
                     },
                     "_backgroundStyles": {
                       "type": "object",
                       "required": false,
-                      "legend": "Page header background image styles",
+                      "legend": "Estilos de imagen de fondo del encabezado de página",
                       "properties": {
                         "_backgroundRepeat": {
                           "type": "string",
                           "required": false,
                           "default": "",
                           "inputType": {"type":"Select", "options":["repeat","repeat-x","repeat-y","no-repeat"]},
-                          "title": "Set if/how the background image repeats",
-                          "help": "Repeat-x: The background image is repeated only horizontally. Repeat-y: The background image is repeated only vertically."
+                          "title": "Establecer si/cómo se repite la imagen de fondo",
+                          "help": "Repeat-x: la imagen de fondo se repite solo horizontalmente. Repeat-y: La imagen de fondo se repite solo verticalmente."
                         },
                         "_backgroundSize": {
                           "type": "string",
                           "required": false,
                           "default": "",
                           "inputType": {"type":"Select", "options":["auto","cover","contain","100% 100%"]},
-                          "title": "Set the size of the background image",
-                          "help": "Auto: The background image is displayed in its original size. Cover: Resize the background image to cover the entire container, even if it has to stretch or crop the image. Contain: Resize the background image to make sure the image is fully visible. 100% 100%: Resize the background image to match the dimensions of the container."
+                          "title": "Establecer el tamaño de la imagen de fondo",
+                          "help": "Auto: La imagen de fondo se muestra en su tamaño original. Cover: Cambie el tamaño de la imagen de fondo para cubrir todo el contenedor, incluso si tiene que estirar o recortar la imagen. Contain: Cambie el tamaño de la imagen de fondo para asegurarse de que la imagen sea completamente visible. 100% 100%: Cambiar el tamaño de la imagen de fondo para que coincida con las dimensiones del contenedor."
                         },
                         "_backgroundPosition": {
                           "type": "string",
                           "required": false,
                           "default": "",
                           "inputType": {"type":"Select", "options":["left top","left center","left bottom","center top","center center","center bottom","right top","right center","right bottom"]},
-                          "title": "Set the position of the background image",
-                          "help": "The first value is the horizontal position and the second value is the vertical."
+                          "title": "Establecer la posición de la imagen de fondo",
+                          "help": "El primer valor es la posición horizontal y el segundo valor es la vertical."
                         }
                       }
                     },
                     "_minimumHeights": {
                       "type": "object",
                       "required": false,
-                      "legend": "Page header minimum height",
+                      "legend": "Altura mínima del encabezado de página",
                       "properties": {
                         "_large": {
                           "type": "number",
                           "required": false,
                           "default": "",
+                          "title": "Largo",
                           "inputType": "Number",
                           "validators": ["number"],
-                          "help": "Minimum height should only be used in instances where the page header height needs to be greater than the content e.g. to prevent a background image being cropped"
+                          "help": "La altura mínima solo debe usarse en los casos en que la altura del encabezado de la página debe ser mayor que el contenido, p. para evitar que se recorte una imagen de fondo."
                         },
                         "_medium": {
                           "type": "number",
                           "required": false,
                           "default": "",
+                          "title" : "Medio",
                           "inputType": "Number",
                           "validators": ["number"],
-                          "help": "Minimum height should only be used in instances where the page header height needs to be greater than the content e.g. to prevent a background image being cropped"
+                          "help": "La altura mínima solo debe usarse en los casos en que la altura del encabezado de la página debe ser mayor que el contenido, p. para evitar que se recorte una imagen de fondo"
                         },
                         "_small": {
                           "type": "number",
                           "required": false,
                           "default": "",
+                          "title" : "Pequeño",
                           "inputType": "Number",
                           "validators": ["number"],
-                          "help": "Minimum height should only be used in instances where the page header height needs to be greater than the content e.g. to prevent a background image being cropped"
+                          "help": "La altura mínima solo debe usarse en los casos en que la altura del encabezado de la página debe ser mayor que el contenido, p. para evitar que se recorte una imagen de fondo"
                         }
                       }
                     }
@@ -913,7 +924,7 @@
                 "_backgroundImage": {
                   "type": "object",
                   "required": false,
-                  "legend": "Article background image",
+                  "legend": "Imagen de fondo del artículo",
                   "properties": {
                     "_large": {
                       "type": "string",
@@ -921,7 +932,7 @@
                       "default": "",
                       "inputType": "Asset:image",
                       "validators": [],
-                      "help": "Large background image - used on desktop"
+                      "help": "Imagen de fondo grande: se usa en el escritorio"
                     },
                     "_medium": {
                       "type": "string",
@@ -929,7 +940,7 @@
                       "default": "",
                       "inputType": "Asset:image",
                       "validators": [],
-                      "help": "Medium background image - used on tablet"
+                      "help": "Imagen de fondo mediana - usada en tableta"
                     },
                     "_small": {
                       "type": "string",
@@ -937,45 +948,45 @@
                       "default": "",
                       "inputType": "Asset:image",
                       "validators": [],
-                      "help": "Small background image - used on mobile"
+                      "help": "Imagen de fondo pequeña: utilizada en dispositivos móviles"
                     }
                   }
                 },
                 "_backgroundStyles": {
                   "type": "object",
                   "required": false,
-                  "legend": "Article background image styles",
+                  "legend": "Estilos de imagen de fondo del artículo",
                   "properties": {
                     "_backgroundRepeat": {
                       "type": "string",
                       "required": false,
                       "default": "",
                       "inputType": {"type":"Select", "options":["repeat","repeat-x","repeat-y","no-repeat"]},
-                      "title": "Set if/how the background image repeats",
-                      "help": "Repeat-x: The background image is repeated only horizontally. Repeat-y: The background image is repeated only vertically."
+                      "title": "Establecer si/cómo se repite la imagen de fondo",
+                      "help": "Repeat-x: La imagen de fondo se repite solo horizontalmente. Repeat-y: La imagen de fondo se repite solo verticalmente.."
                     },
                     "_backgroundSize": {
                       "type": "string",
                       "required": false,
                       "default": "",
                       "inputType": {"type":"Select", "options":["auto","cover","contain","100% 100%"]},
-                      "title": "Set the size of the background image",
-                      "help": "Auto: The background image is displayed in its original size. Cover: Resize the background image to cover the entire container, even if it has to stretch or crop the image. Contain: Resize the background image to make sure the image is fully visible. 100% 100%: Resize the background image to match the dimensions of the container."
+                      "title": "Establecer el tamaño de la imagen de fondo",
+                      "help": "Auto: La imagen de fondo se muestra en su tamaño original. Cover: Cambie el tamaño de la imagen de fondo para cubrir todo el contenedor, incluso si tiene que estirar o recortar la imagen. Contain: Cambie el tamaño de la imagen de fondo para asegurarse de que la imagen sea completamente visible. 100% 100%: Cambiar el tamaño de la imagen de fondo para que coincida con las dimensiones del contenedor."
                     },
                     "_backgroundPosition": {
                       "type": "string",
                       "required": false,
                       "default": "",
                       "inputType": {"type":"Select", "options":["left top","left center","left bottom","center top","center center","center bottom","right top","right center","right bottom"]},
-                      "title": "Set the position of the background image",
-                      "help": "The first value is the horizontal position and the second value is the vertical."
+                      "title": "Establecer la posición de la imagen de fondo",
+                      "help": "El primer valor es la posición horizontal y el segundo valor es la vertical.."
                     }
                   }
                 },
                 "_responsiveClasses": {
                   "type": "object",
                   "required": false,
-                  "legend": "Responsive classes",
+                  "legend": "Clases receptivas",
                   "properties": {
                     "_large": {
                       "type": "string",
@@ -983,7 +994,7 @@
                       "default": "",
                       "inputType": "Text",
                       "validators": [],
-                      "help": "Large CSS class - used on desktop"
+                      "help": "Clase CSS grande: se usa en el escritorio"
                     },
                     "_medium": {
                       "type": "string",
@@ -991,7 +1002,7 @@
                       "default": "",
                       "inputType": "Text",
                       "validators": [],
-                      "help": "Medium CSS class - used on tablet"
+                      "help": "Clase CSS media - utilizado en tableta"
                     },
                     "_small": {
                       "type": "string",
@@ -999,7 +1010,7 @@
                       "default": "",
                       "inputType": "Text",
                       "validators": [],
-                      "help": "Small CSS class - used on mobile"
+                      "help": "Clase pequeña de CSS: utilizada en dispositivos móviles"
                     }
                   }
                 }
@@ -1017,7 +1028,7 @@
                 "_backgroundImage": {
                   "type": "object",
                   "required": false,
-                  "legend": "Block background image",
+                  "legend": "Imagen de fondo del bloque",
                   "properties": {
                     "_large": {
                       "type": "string",
@@ -1025,7 +1036,7 @@
                       "default": "",
                       "inputType": "Asset:image",
                       "validators": [],
-                      "help": "Large background image - used on desktop"
+                      "help": "Imagen de fondo grande: se usa en el escritorio"
                     },
                     "_medium": {
                       "type": "string",
@@ -1033,7 +1044,7 @@
                       "default": "",
                       "inputType": "Asset:image",
                       "validators": [],
-                      "help": "Medium background image - used on tablet"
+                      "help": "Imagen de fondo mediana - usada en tableta"
                     },
                     "_small": {
                       "type": "string",
@@ -1041,45 +1052,45 @@
                       "default": "",
                       "inputType": "Asset:image",
                       "validators": [],
-                      "help": "Small background image - used on mobile"
+                      "help": "Imagen de fondo pequeña: utilizada en dispositivos móviles"
                     }
                   }
                 },
                 "_backgroundStyles": {
                   "type": "object",
                   "required": false,
-                  "legend": "Block background image styles",
+                  "legend": "Bloquear estilos de imagen de fondo",
                   "properties": {
                     "_backgroundRepeat": {
                       "type": "string",
                       "required": false,
                       "default": "",
                       "inputType": {"type":"Select", "options":["repeat","repeat-x","repeat-y","no-repeat"]},
-                      "title": "Set if/how the background image repeats",
-                      "help": "Repeat-x: The background image is repeated only horizontally. Repeat-y: The background image is repeated only vertically."
+                      "title": "Establecer si/cómo se repite la imagen de fondo",
+                      "help": "Repeat-x: La imagen de fondo se repite solo horizontalmente. Repeat-y: La imagen de fondo se repite solo verticalmente."
                     },
                     "_backgroundSize": {
                       "type": "string",
                       "required": false,
                       "default": "",
                       "inputType": {"type":"Select", "options":["auto","cover","contain","100% 100%"]},
-                      "title": "Set the size of the background image",
-                      "help": "Auto: The background image is displayed in its original size. Cover: Resize the background image to cover the entire container, even if it has to stretch or crop the image. Contain: Resize the background image to make sure the image is fully visible. 100% 100%: Resize the background image to match the dimensions of the container."
+                      "title": "Establecer el tamaño de la imagen de fondo",
+                      "help": "Auto: La imagen de fondo se muestra en su tamaño original. Cover: Cambie el tamaño de la imagen de fondo para cubrir todo el contenedor, incluso si tiene que estirar o recortar la imagen. Contain: Cambie el tamaño de la imagen de fondo para asegurarse de que la imagen sea completamente visible. 100% 100%: Cambiar el tamaño de la imagen de fondo para que coincida con las dimensiones del contenedor."
                     },
                     "_backgroundPosition": {
                       "type": "string",
                       "required": false,
                       "default": "",
                       "inputType": {"type":"Select", "options":["left top","left center","left bottom","center top","center center","center bottom","right top","right center","right bottom"]},
-                      "title": "Set the position of the background image",
-                      "help": "The first value is the horizontal position and the second value is the vertical."
+                      "title": "Establecer la posición de la imagen de fondo",
+                      "help": "El primer valor es la posición horizontal y el segundo valor es la vertical."
                     }
                   }
                 },
                 "_minimumHeights": {
                   "type": "object",
                   "required": false,
-                  "legend": "Block minimum height",
+                  "legend": "Altura mínima del bloque",
                   "properties": {
                     "_large": {
                       "type": "number",
@@ -1087,7 +1098,7 @@
                       "default": "",
                       "inputType": "Number",
                       "validators": ["number"],
-                      "help": "Minimum height should only be used in instances where the block height needs to be greater than the content e.g. to prevent a background image being cropped"
+                      "help": "La altura mínima solo debe usarse en los casos en que la altura del bloque debe ser mayor que el contenido, p. para evitar que se recorte una imagen de fondo"
                     },
                     "_medium": {
                       "type": "number",
@@ -1095,7 +1106,7 @@
                       "default": "",
                       "inputType": "Number",
                       "validators": ["number"],
-                      "help": "Minimum height should only be used in instances where the block height needs to be greater than the content e.g. to prevent a background image being cropped"
+                      "help": "La altura mínima solo debe usarse en los casos en que la altura del bloque debe ser mayor que el contenido, p. para evitar que se recorte una imagen de fondo"
                     },
                     "_small": {
                       "type": "number",
@@ -1103,14 +1114,14 @@
                       "default": "",
                       "inputType": "Number",
                       "validators": ["number"],
-                      "help": "Minimum height should only be used in instances where the block height needs to be greater than the content e.g. to prevent a background image being cropped"
+                      "help": "La altura mínima solo debe usarse en los casos en que la altura del bloque debe ser mayor que el contenido, p. para evitar que se recorte una imagen de fondo"
                     }
                   }
                 },
                 "_responsiveClasses": {
                   "type": "object",
                   "required": false,
-                  "legend": "Responsive classes",
+                  "legend": "Clases receptivas",
                   "properties": {
                     "_large": {
                       "type": "string",
@@ -1118,7 +1129,7 @@
                       "default": "",
                       "inputType": "Text",
                       "validators": [],
-                      "help": "Large CSS class - used on desktop"
+                      "help": "Clase CSS grande: se usa en el escritorio"
                     },
                     "_medium": {
                       "type": "string",
@@ -1126,7 +1137,7 @@
                       "default": "",
                       "inputType": "Text",
                       "validators": [],
-                      "help": "Medium CSS class - used on tablet"
+                      "help": "Clase CSS media - utilizado en tableta"
                     },
                     "_small": {
                       "type": "string",
@@ -1134,7 +1145,7 @@
                       "default": "",
                       "inputType": "Text",
                       "validators": [],
-                      "help": "Small CSS class - used on mobile"
+                      "help": "Clase pequeña de CSS: utilizada en dispositivos móviles"
                     }
                   }
                 },
@@ -1142,10 +1153,10 @@
                   "type": "boolean",
                   "required": false,
                   "default": false,
-                  "title": "Divider block?",
+                  "title": "¿Bloque divisorio?",
                   "inputType": "Checkbox",
                   "validators": [],
-                  "help": "If enabled, applies a divider class to the block"
+                  "help": "Si está habilitado, aplica una clase de divisor al bloque"
                 }
               }
             }
