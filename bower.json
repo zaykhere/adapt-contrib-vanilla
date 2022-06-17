@@ -6,7 +6,7 @@
   "bugs": "https://github.com/adaptlearning/adapt-contrib-vanilla/issues",
   "theme": "vanilla",
   "displayName": "Vanilla",
-  "description": "A core bundled theme",
+  "description": "Un tema incluido principal",
   "main": "js/theme.js",
   "keywords": [
     "adapt-plugin",
